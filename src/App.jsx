@@ -2,18 +2,6 @@ import React, { useEffect, useMemo, useState } from "react";
 import "./App.css";
 import avatar from "./assets/avatar.jpg";
 
-/**
- * Simple-but-impressive React portfolio.
- * No UI frameworks, no extra animation/chart libraries.
- *
- * Interactivity:
- * - Accent color picker (moved to the top bar; persisted in localStorage)
- * - Cursor spotlight effect (CSS + JS)
- * - ScrollSpy navigation
- * - Project filter + modal
- * - Copy email/phone + toast
- */
-
 const PROFILE = {
   name: "Ivan Sharh",
   role: "Front-End Developer",
